@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temporizador</title>
+<!----------------------------------------------------------------------------------Estilos----------------------->
+<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="contenedor">
+        <div class="reloj">
+            <input class="numero" type="text" maxlength="2" value="00"><span>hs</span>
+            <input class="numero" type="text" maxlength="2" value="00"><span>min</span>
+            <input class="numero" type="text" maxlength="2" value="00"><span>seg</span>
+        </div>
+        <div class="butones">
+            <button id="playJS" onclick="startTimer()"></button>
+            <button id="stopJS" onclick="stopTimer()"></button>
+        </div>
+    </div>
+
+<!----------------------------------------------------------------------------------JAVASCRIPT--------------------->
+<script src="main.js"></script>
+</body>
+</html>

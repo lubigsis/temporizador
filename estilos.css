@@ -45,14 +45,14 @@ body {
 
 }
 
-.butones button {
+.botones button {
     margin: 0 7px;
     padding: 40px;
     border: none;
     border-radius: 50%;
 }
 
-.butones #playJS {
+.botones #playJS {
     background-image: url('play.png');
     background-position: center;
     background-repeat: no-repeat;
@@ -60,7 +60,7 @@ body {
    /* background-color: rgb(168, 249, 5);*/
 }
 
-.butones #stopJS {
+.botones #stopJS {
     background-image: url('stop.png');
     background-position: center;
     background-repeat: no-repeat;
@@ -68,10 +68,10 @@ body {
     /*background-color: rgb(168, 249, 5);*/
 }
 
-#play:active {
+#playJS:active {
     background-color: rgb(168, 249, 5);
 }
 
-#stop:active {
+#stopJS:active {
     background-color: rgb(234, 4, 246);
 }
